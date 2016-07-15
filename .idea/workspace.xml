@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4fab8cd-9b91-4fcd-be40-844af3865898" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ClientController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ClientController.php" />
     </list>
     <ignored path="codeproject.iws" />
@@ -38,8 +37,8 @@
       <file leaf-file-name="ClientController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ClientController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="510">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding>
                 <element signature="e#48#71#0#PHP" expanded="true" />
               </folding>
@@ -228,12 +227,12 @@
       <workItem from="1468185979787" duration="9823000" />
       <workItem from="1468282028106" duration="2415000" />
       <workItem from="1468599715751" duration="6287000" />
-      <workItem from="1468617705718" duration="2258000" />
+      <workItem from="1468617705718" duration="5191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27606000" />
+    <option name="totallyTimeSpent" value="30539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -620,8 +619,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ClientController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="510">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="e#48#71#0#PHP" expanded="true" />
           </folding>
