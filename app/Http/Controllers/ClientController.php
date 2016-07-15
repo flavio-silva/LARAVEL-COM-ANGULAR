@@ -7,6 +7,7 @@ use CodeProject\Client;
 use Illuminate\Http\Request;
 
 use CodeProject\Http\Requests;
+use Symfony\Component\Debug\Exception\FatalThrowableError;
 
 class ClientController extends Controller
 {
@@ -28,7 +29,15 @@ class ClientController extends Controller
 
     public function destroy($id)
     {
-        Client::find($id)->delete();
+        try{
+            Client::find($id)->delete();
+            return $message = "O Cliente ". $id ." foi excluido com sucesso.";
+        }
+        catch (FatalThrowableError $e)
+        {
+            return $message = "Não foi possivel excluir o cliente". $id .", o Cliente não Existe";
+        }
+
     }
 
     public function update(Request $request, $id)
