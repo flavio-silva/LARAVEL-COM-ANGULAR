@@ -33,25 +33,26 @@ class ClientController extends Controller
 
     public function destroy($id)
     {
-        if (Client::find($id))
+        $entity = Client::find($id);
+        if ($result)
         {
-            Client::find($id)->delete();
+            $result->delete();
             return $message = "O Cliente ". $id ." foi excluido com sucesso.";
         }
-        else{
-            return "Erro: Cliente não encontrado, não foi possivel realizar a exclusão.";
-        }
+        
+        return "Erro: Cliente não encontrado, não foi possivel realizar a exclusão.";
     }
 
     public function update(Request $request, $id)
     {
-        if (Client::find($id))
+        $entity = Client::find($id);
+        
+        if ($entity)
         {
-            Client::find($id)->update($request->all());
+            $entity->update($request->all());
             return Client::find($id);
         }
-        else{
-            return "Erro: Não foi possivel atualizar o Cliente.";
-        }
+        
+        return "Erro: Não foi possivel atualizar o Cliente.";
     }
 }
